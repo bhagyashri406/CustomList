@@ -1,12 +1,12 @@
 package com.example.custonlistview;
 
 public class PlayerData {
-    String FistName;
-    String Image;
-    int Age ;
-    String Lastname ;
-    String Country ;
-    String Type ;
+    private String FistName;
+    private String Image;
+    private int Age ;
+    private String Lastname ;
+    private String Country ;
+    private String Type ;
 
     public String getType() {
         return Type;
@@ -56,8 +56,6 @@ public class PlayerData {
     public void setCountry(String country) {
         Country = country;
     }
-
-
 
     public PlayerData(String fistName,String lastname, String  type , String image, int age,  String country) {
         FistName = fistName;
